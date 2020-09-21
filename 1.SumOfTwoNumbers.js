@@ -5,3 +5,5 @@ function sumOfTwoNumbers(a, b) {
 }
 
 console.log(sumOfTwoNumbers(1, 2)) // 3
+console.log(sumOfTwoNumbers(100, 15)) // 115
+console.log(sumOfTwoNumbers(52, 28)) // 80
