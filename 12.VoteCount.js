@@ -6,6 +6,7 @@ function voteCount(votes) {
     return votes.upvotes - votes.downvotes
 }
 
+// inputs
 console.log(voteCount({ upvotes: 13, downvotes: 0 })) // 13
 console.log(voteCount({ upvotes: 2, downvotes: 33 })) // -31
 console.log(voteCount({ upvotes: 132, downvotes: 132 })) // 0

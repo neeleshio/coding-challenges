@@ -15,6 +15,7 @@ function firstLastElement(arr) {
     return [arr.shift(), arr.pop()]
 }
 
+// inputs
 console.log(firstLastElement([5, 10, 15, 20, 25])) // [5, 25]
 console.log(firstLastElement(["edabit", 13, null, false, true])) // ["edabit", true]
 console.log(firstLastElement([undefined, 4, "6", "hello", null])) // [undefined, null]

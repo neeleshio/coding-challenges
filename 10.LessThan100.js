@@ -10,6 +10,7 @@ function lessThan100(x, y) {
         return false
 }
 
+// inputs
 console.log(lessThan100(20, 30)) // true
 console.log(lessThan100(60, 90)) // false
 console.log(lessThan100(50, 50)) // false

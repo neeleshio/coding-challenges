@@ -32,6 +32,7 @@ function newWord(str) {
     return str.substr(1)
 }
 
+// inputs
 console.log(newWord("apple")) // "pple"
 console.log(newWord("cherry")) // "herry"
 console.log(newWord("plum")) // "lum"

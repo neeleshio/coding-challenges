@@ -7,6 +7,7 @@ function lessThanOrEqualToZero(num) {
         return false
 }
 
+// inputs
 console.log(lessThanOrEqualToZero(1)) // false
 console.log(lessThanOrEqualToZero(-1)) // true
 console.log(lessThanOrEqualToZero(0)) // true

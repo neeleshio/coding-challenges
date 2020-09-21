@@ -7,6 +7,7 @@ function dividesEvenly(a, b) {
         return false
 }
 
+// inputs
 console.log(dividesEvenly(98, 7)) // true
 // 98/7 = 14
 

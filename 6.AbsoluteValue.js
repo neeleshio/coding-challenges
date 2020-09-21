@@ -10,6 +10,7 @@ function absoluteValue(num) {
         return num
 }
 
+// inputs
 console.log(absoluteValue(-5)) // 5
 console.log(absoluteValue(0)) // 0
 console.log(absoluteValue(4)) // 4

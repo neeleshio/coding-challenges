@@ -18,6 +18,7 @@ function reverseArray(arr) {
     return arr.reverse()
 }
 
+// inputs
 console.log(reverseArray([1, 2, 3, 4])) // [4, 3, 2, 1]
 console.log(reverseArray([9, 9, 2, 3, 4])) // [4, 3, 2, 9, 9]
 console.log(reverseArray([])) // []

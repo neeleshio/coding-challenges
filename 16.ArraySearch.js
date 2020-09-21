@@ -21,6 +21,7 @@ function findBob(arr) {
     return arr.indexOf("Bob")
 }
 
+// inputs
 console.log(findBob(["Jimmy", "Layla", "Bob"])) // 2
 console.log(findBob(["Bob", "Layla", "Kaitlyn", "Patricia"])) // 0
 console.log(findBob(["Jimmy", "Layla", "James"])) // -1

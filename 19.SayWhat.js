@@ -9,6 +9,7 @@ function sayWhat(obj) {
     return (Object.values(obj).join(" ").concat(` ${obj[2]}`))
 }
 
+// inputs
 console.log(sayWhat({ 1: "Mommy", 2: "please", 3: "help" })) // "Mommy please help please"
 console.log(sayWhat({ 1: "Me", 2: "innocent", 3: "is" })) // "Me innocent is innocent"
 console.log(sayWhat({ 1: "Must", 2: "lawyer", 3: "call" })) // "Must lawyer call lawyer"
